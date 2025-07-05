@@ -9,9 +9,9 @@ class AppTheme {
 
   // Emergency Calm Color Palette - optimized for high-contrast mobile readability
   static const Color primaryLight =
-      Color(0xFFD32F2F); // Emergency red for critical actions
+      Color.fromARGB(202, 239, 5, 5); // Emergency red for critical actions
   static const Color primaryDark =
-      Color(0xFFEF5350); // Lighter red for dark theme
+      Color.fromARGB(255, 78, 239, 99); // Lighter red for dark theme
   static const Color secondaryLight =
       Color(0xFF1976D2); // Trust blue for secondary actions
   static const Color secondaryDark =

@@ -207,12 +207,9 @@ class _SplashScreenState extends State<SplashScreen>
           ),
         ],
       ),
-      child: Center(
-        child: CustomIconWidget(
-          iconName: 'shield',
-          color: AppTheme.lightTheme.primaryColor,
-          size: 12.w,
-        ),
+      child: Image.asset(
+        'assets/images/logoo.png',
+        fit: BoxFit.cover,
       ),
     );
   }
@@ -336,7 +333,7 @@ class _SplashScreenState extends State<SplashScreen>
                     ),
                     SizedBox(width: 2.w),
                     Text(
-                      'Secure • Reliable • Community-Driven',
+                      'Leading the way in community safety',
                       style: AppTheme.lightTheme.textTheme.bodySmall?.copyWith(
                         color: Colors.white.withValues(alpha: 0.6),
                         fontSize: 10.sp,

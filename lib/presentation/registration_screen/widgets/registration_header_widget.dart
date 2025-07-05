@@ -15,7 +15,7 @@ class RegistrationHeaderWidget extends StatelessWidget {
           width: 20.w,
           height: 20.w,
           decoration: BoxDecoration(
-            color: AppTheme.lightTheme.colorScheme.primary,
+            color: Colors.white,
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
               BoxShadow(
@@ -26,13 +26,17 @@ class RegistrationHeaderWidget extends StatelessWidget {
               ),
             ],
           ),
-          child: Center(
-            child: CustomIconWidget(
-              iconName: 'shield',
-              color: AppTheme.lightTheme.colorScheme.onPrimary,
-              size: 8.w,
-            ),
+          child: Image.asset(
+            'assets/images/logoo.png',
+            fit: BoxFit.cover,
           ),
+          // child: Center(
+          //   child: CustomIconWidget(
+          //     iconName: 'shop',
+          //     color: AppTheme.lightTheme.colorScheme.onPrimary,
+          //     size: 8.w,
+          //   ),
+          // ),
         ),
 
         SizedBox(height: 3.h),
