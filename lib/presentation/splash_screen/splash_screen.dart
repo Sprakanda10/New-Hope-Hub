@@ -96,6 +96,8 @@ class _SplashScreenState extends State<SplashScreen>
     // Mock first time user check - replace with actual implementation
     await Future.delayed(const Duration(milliseconds: 200));
     return true; // Simulate first time user
+
+    //this is git commit changes test
   }
 
   void _showRetryOption() {
